@@ -5,11 +5,12 @@ const services: IServiceItem[] = [
     id: 1,
     title: "Mobile App Development",
     icons: [
-      "/skills.ts/socket-io.png",
-      "/skills/dart.svg",
+      // "/skills.ts/socket-io.png",
       "/skills/flutter.svg",
+      "/skills/react.svg",
       "/skills/getx.png",
       "/skills/firebase.svg",
+      "/skills/dart.svg",
     ],
     shortDescription:
       "I create engaging mobile applications for your audience.",

@@ -4,12 +4,13 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/common/utils/cn";
 import { AnimatedServiceCard } from "../components/home/ui/AnimatedServiceCard";
+import { IServiceItem } from "@/common/types";
 
 export const HoverLayoutGrid = ({
   cards,
   className,
 }: {
-  cards: any[];
+  cards: IServiceItem[];
   className?: string;
 }) => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);

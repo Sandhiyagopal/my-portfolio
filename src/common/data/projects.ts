@@ -2,15 +2,15 @@ import { IProjectItem, ProjectType, RepoType } from "@/common/types";
 
 const projects: IProjectItem[] = [
   {
-    id: "social-media-app-flutter",
+    id: "social-media-app",
     title: "Social Media App",
     description:
       "A social media mobile application developed using Flutter, GetX, Firebase Notifications and Hive.",
     icon: "/skills/flutter.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/social-media-app-flutter",
-    url: "https://github.com/nixrajput/social-media-app-flutter/releases",
+    // githubUrl: "https://github.com/Sandhiyagopal/social-media-app-flutter",
+    // url: "https://github.com/Sandhiyagopal/social-media-app-flutter/releases",
     tags: ["Flutter", "Dart", "GetX", "Hive"],
   },
   {
@@ -21,8 +21,8 @@ const projects: IProjectItem[] = [
     icon: "/skills/react.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/ecommerce-web-reactjs",
-    url: "https://nixlab-shop.vercel.app",
+    // githubUrl: "https://github.com/Sandhiyagopal/ecommerce-web-reactjs",
+    // url: "https://sandhiya-shop.vercel.app",
     tags: ["React.js", "Redux", "Material UI", "Stripe"],
   },
   {
@@ -33,8 +33,8 @@ const projects: IProjectItem[] = [
     icon: "/skills/flutter.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/video-calling-app-flutter",
-    url: "https://github.com/nixrajput/video-calling-app-flutter/releases",
+    // githubUrl: "https://github.com/Sandhiyagopal/video-calling-app-flutter",
+    // url: "https://github.com/Sandhiyagopal/video-calling-app-flutter/releases",
     tags: ["Flutter", "Dart", "GetX", "Agora SDK"],
   },
   {
@@ -45,7 +45,7 @@ const projects: IProjectItem[] = [
     icon: "/skills/nestjs.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/social-media-api-nodejs",
+    // githubUrl: "https://github.com/Sandhiyagopal/social-media-api-nodejs",
     tags: ["Node.js", "Express.js", "MongoDB", "WebSocket"],
   },
   {
@@ -56,8 +56,8 @@ const projects: IProjectItem[] = [
     icon: "/skills/flutter.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/grocery-list-maker-flutter",
-    url: "https://github.com/nixrajput/grocery-list-maker-flutter/releases/latest",
+    // githubUrl: "https://github.com/Sandhiyagopal/grocery-list-maker-flutter",
+    // url: "https://github.com/Sandhiyagopal/grocery-list-maker-flutter/releases/latest",
     tags: ["Flutter", "Dart", "BLoC", "PDF", "Hive"],
   },
   {
@@ -68,30 +68,8 @@ const projects: IProjectItem[] = [
     icon: "/skills/nodejs.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/ecommerce-api-nodejs",
+    // githubUrl: "https://github.com/Sandhiyagopal/ecommerce-api-nodejs",
     tags: ["Node.js", "Express.js", "MongoDB", "Stripe"],
-  },
-  {
-    id: "flutter-carousel-widget-package",
-    title: "Flutter Carousel Widget Package",
-    description:
-      "A customizable carousel widget for Flutter, offering features such as infinite scrolling, auto-scrolling, custom child widgets, pre-built indicators, expandable child widgets, auto-sized child support, and enlarged center page.",
-    icon: "/skills/flutter.svg",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/flutter-carousel-widget-package",
-    tags: ["Flutter", "Dart", "Carousel"],
-  },
-  {
-    id: "get-time-ago-package",
-    title: "GetTimeAgo Package",
-    description:
-      "A Dart package that converts and formats DateTime objects into human-readable 'time ago' strings, such as '20 seconds ago', 'a minute ago', or '7 hours ago'.",
-    icon: "/skills/dart.svg",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/gettimeago",
-    tags: ["Dart", "DateTime", "Formatting"],
   },
   {
     id: "portfolio-website",
@@ -101,8 +79,8 @@ const projects: IProjectItem[] = [
     icon: "/skills/nextjs.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/portfolio-website",
-    url: "https://nixrajput.dev",
+    // githubUrl: "https://github.com/Sandhiyagopal/portfolio-website",
+    url: "https://Sandhiyagopal.dev",
     tags: ["Next.js", "Sass", "Web Development"],
   },
   {
@@ -113,7 +91,7 @@ const projects: IProjectItem[] = [
     icon: "/skills/cpp.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/bus-reservation-system",
+    // githubUrl: "https://github.com/Sandhiyagopal/bus-reservation-system",
     tags: ["C++", "OOP", "File Handling"],
   },
 ];

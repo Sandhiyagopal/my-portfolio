@@ -1,23 +1,23 @@
 class Strings {
   static telegram = "Telegram";
-  static telegramLink = "https://telegram.me/sandhiya";
-  static telegramUsername = "sandhiya";
+  static telegramLink = "https://telegram.me/Sandhiyagopal";
+  static telegramUsername = "Sandhiya";
 
   static github = "GitHub";
-  static githubLink = "https://www.github.com/sandhiya";
-  static githubUsername = "sandhiya";
+  static githubLink = "https://github.com/Sandhiyagopal";
+  static githubUsername = "Sandhiya gopal";
 
   static linkedIn = "LinkedIn";
-  static linkedInLink = "https://www.linkedin.com/in/sandhiya";
+  static linkedInLink = "https://www.linkedin.com/in/sandhiya-gopal/";
   static linkedInUsername = "sandhiya";
 
   static instagram = "Instagram";
-  static instagramLink = "https://www.instagram.com/sandhiya";
+  static instagramLink = "https://www.instagram.com/Sandhiyaa._";
   static instagramUsername = "sandhiya";
 
   static twitter = "Twitter";
-  static twitterLink = "https://www.twitter.com/sandhiya07";
-  static twitterUsername = "sandhiya07";
+  static twitterLink = "https://www.twitter.com/Sandhiyagopal";
+  static twitterUsername = "sandhiya";
 
   static email = "Email";
   static primaryEmailLink = "mailto:sandygms22@gmail.com";

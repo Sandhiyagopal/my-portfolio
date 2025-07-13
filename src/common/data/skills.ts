@@ -15,9 +15,9 @@ const skills: ISkillListItem[] = [
         icon: "/skills/typescript.svg",
       },
       {
-        title: "Dart",
+        title: "Python",
         level: SkillLevel.Expert,
-        icon: "/skills/dart.svg",
+        icon: "/skills/python.svg",
       },
     ],
   },
@@ -54,6 +54,11 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Expert,
         icon: "/skills/redux.svg",
       },
+      {
+        title: "Zustand",
+        level: SkillLevel.Expert,
+        icon: "/skills/redux.svg",
+      },
     ],
   },
   {
@@ -68,31 +73,6 @@ const skills: ISkillListItem[] = [
         title: "Express.js",
         level: SkillLevel.Expert,
         icon: "/skills/express.svg",
-      },
-      {
-        title: "Socket.io",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/socket-io.png",
-      },
-      // {
-      //   title: "Nest.js",
-      //   level: SkillLevel.Beginner,
-      //   icon: "/skills/nestjs.svg",
-      // },
-    ],
-  },
-  {
-    title: "Mobile App Development",
-    items: [
-      {
-        title: "Flutter",
-        level: SkillLevel.Expert,
-        icon: "/skills/flutter.svg",
-      },
-      {
-        title: "GetX",
-        level: SkillLevel.Expert,
-        icon: "/skills/getx.png",
       },
     ],
   },

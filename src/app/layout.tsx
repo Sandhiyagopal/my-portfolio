@@ -7,7 +7,9 @@ import dynamic from "next/dynamic";
 import { navMenus } from "@/common/data/navMenus";
 import GoogleAnalytics from "@/common/components/GoogleAnalytics";
 import WebVitals from "@/common/components/WebVitals";
-import FloatingNavbar from "@/common/components/navbar/FloatingNavbar";
+// import FloatingNavbar from "@/common/components/navbar/FloatingNavbar";
+import FloatingNavbarClient from "@/common/components/navbar/FloatingNavbarClient";
+
 
 const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -84,7 +86,7 @@ const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
 
       <body className={isDebug ? "debug-screens" : ""}>
         {isDebug ? <WebVitals /> : null}
-        <FloatingNavbar className="app_nav" navItems={navMenus} />
+        <FloatingNavbarClient className="app_nav" navItems={navMenus} />
         <main>{children}</main>
         <ScrollToTop />
       </body>
